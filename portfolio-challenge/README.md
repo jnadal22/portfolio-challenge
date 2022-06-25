@@ -7,3 +7,5 @@ Technologies
     -CSS
     
 Link to site:
+
+file:///Users/jordannadal/Desktop/portfolio_challenge/portfolio-challenge/index.html
