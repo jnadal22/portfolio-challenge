@@ -1,0 +1,156 @@
+*{
+    font-weight: 600;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: right;
+    color: black;
+    background-image: radial-gradient(orange,green);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+
+#mainportfolio{
+    border-left: 5px solid black;
+    padding-left: 20px;
+    float: right;
+    width: 75%;
+}
+
+#mainportfolio div{
+    margin-top: 100px;
+
+}
+
+#pic1{
+    border-radius: 500px;
+}
+
+
+.header{
+    
+    padding: 30px;
+    text-align:left;
+    font-size: 35px;
+}
+
+p{
+    font-size: xx-large;
+}
+
+
+.topnav a:hover{
+    
+    text-align:right;
+    margin-bottom: 100px;
+    font-weight: 600;
+    color: aqua;
+}
+
+
+.topnav div{
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    width: 60%;
+    float:right;
+}
+#codename h1{
+    padding-right: 100px;
+    border-style: 30px solid black;
+    
+}
+
+
+nav{
+    float: left;
+    width: 30%;
+    
+    padding: 22px;
+
+}
+img{
+    border: 40px;
+}
+
+
+#aboutme-container,#Work-navlink,#ContactMe-navlink{
+    position:relative;
+}
+
+
+#aboutme-container h1{
+    position:absolute;
+    left: -150px;
+    font-size: xx-large;
+}
+
+#aboutme-container img{
+    padding: 50px;
+}
+
+#aboutme-container p{
+    font-size: xx-large;
+    font-stretch: semi-expanded;
+    margin-right: 25px;
+    padding-top: 50px;
+}
+
+
+#Work-navlink h1{
+    position:absolute;
+    left: -150px;
+    font-size: xx-large;
+}
+
+#Work-navlink a:hover{
+    font-size: 15px;
+  color: aqua;
+    
+}
+
+
+
+#work{
+    display: inline;
+    color: black;
+}
+
+#ContactMe-navlink h1{
+    position:absolute;
+    left: -200px;
+    font-size: xx-large;
+}
+
+.contactMe{
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    justify-content: space-evenly;
+    padding-top: 125px;
+    color: black;
+}
+
+.contactMe a:hover{
+   color: aqua;
+}
+
+ #Maverick-container p{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+ @media screen and (max-width:960px) {
+     *{
+         background-color: red;
+     }
+     
+ }
+ 
